@@ -215,7 +215,7 @@ $fadeY: 28%;  // height of the bottom fade band
   flex: 1 1 60%;
   display: flex;
   align-items: center;
-  padding: 2rem 4% -1rem;  /* smaller bottom padding to tighten */
+  padding: 2rem 4% 0;  /* smaller bottom padding to tighten */
   position: relative;
   z-index: 1;
 }
