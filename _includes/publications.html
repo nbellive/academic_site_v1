@@ -3,7 +3,8 @@
   <div class="row mb-4">
     {% for pub in site.data.publications %}
       <div class="col-12 mb-3 d-flex align-items-start">
-        <img src="{{ pub.image }}" alt="Publication image" class="me-3" style="width:200px; height:auto;">
+        <img src="{{ pub.image | relative_url }}" alt="Publication image" class="me-3" style="width:200px; height:auto;">
+
         <div>
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors }}<br>
