@@ -1,20 +1,34 @@
 <div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Contact</h3>
-    {% for contact in site.data.settings.contacts %}
-    <div class="row g-5 mb-5">
-      <div class="col-md-6">
-        <h4>{{ contact.name }}</h4>
-        <p>{{ contact.title }} | {{ contact.department }}</p>
-        <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
-        <p>Phone: {{ contact.phone }}</p>
-        <p>Email: {{ contact.email }}</p>
-        <p>Office: {{ contact.office }}</p>
-      </div>
-      <div class="col-md-6">
-        <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
+  <div style="margin-bottom: 1rem;">
+      We are looking for passionate new members to join our team! If you'd like to inquire about opportunities for joining the lab or for collaboration, please reach out by emailing 
+      <a href="mailto:{{ contact.email_link }}">nathan.belliveau at colorado.edu</a>. 
+      Prospective postdocs, please provide a cover letter and your CV. 
+      Graduate students must be accepted through a CU Boulder graduate training program and are encouraged to reach out to us if interested!
+  </div>
+  {% for contact in site.data.settings.contacts %}
+  <div class="row g-5 mb-5">
+    <div class="col-md-6">
+      <h5>Email</h5>
+      <p><a href="mailto:{{ contact.email_link }}">{{ contact.email }}</a></p>
+
+      <h5>Location</h5>
+      <p>
+        {{ contact.institution }}<br>
+        {{ contact.department }}<br>
+        {{ contact.institution_address }}<br>
+        Office: {{ contact.office }}, Lab: {{ contact.lab }}
+      </p>
+    </div>
+
+    <div class="col-md-6">
+      <div class="map-responsive">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6112.0307371797135!2d-105.25173678838252!3d40.00810428028952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bedc6cf259ffd%3A0x17d2ed29be964d55!2sJennie%20Smoly%20Caruthers%20Biotechnology%20Building%2C%203415%20Colorado%20Ave%2C%20Boulder%2C%20CO%2080303!5e0!3m2!1sen!2sus!4v1754603849237!5m2!1sen!2sus"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
 </div>

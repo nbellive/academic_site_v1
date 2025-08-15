@@ -1,14 +1,18 @@
-<div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% endif %}
+<h2 class="section-heading">Select Publications</h2>
+<div class="theme-block">{
+  <div class="row mb-4">
+    {% for pub in site.data.publications %}
+      <div class="col-12 mb-3 d-flex align-items-start">
+        <img src="{{ pub.image }}" alt="Publication image" class="me-3" style="width:200px; height:auto;">
+        <div>
+          <strong>{{ pub.title }}</strong><br>
+          {{ pub.authors }}<br>
+          <span><em>{{ pub.journal }}</em>, {{ pub.year }}</span><br>
+          <a href="{{ pub.DOI }}" target="_blank">{{ pub.DOI }}</a>
+        </div>
+      </div>
+    {% endfor %}
+
+    <p><h5>Full publication and patent list on <a href="https://scholar.google.com/citations?hl=en&user=v4NF1tEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></h5></p>
   </div>
 </div>

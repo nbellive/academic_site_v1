@@ -5,7 +5,7 @@ title: "Graduate Student"
 
 Researcher - Physics & Astronomy
 
-Some University - 1 Main Street, Canada
+Some University 
 
 Phone: (000) 000-0000
 

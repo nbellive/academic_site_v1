@@ -1,10 +1,48 @@
-featured:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
+- title: "Galvanin is an electric-field sensor for directed cell migration"
+  authors: "N.M. Belliveau, M.J. Footer, A. Platenkamp, H. Kim, T.E. Eustis, J.A. Theriot"
+  journal: "BioRxiv"
+  year: 2025
+  DOI: "https://doi.org/10.1101/2024.09.23.614580"
+  image: "/assets/img/pubs/galvanin.png"
 
-index:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
-- {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
+- title: " A function of TPL/TBL1-type corepressors is to nucleate the assembly of the preinitiation complex"
+  authors: "A.R. Leydon, B. Downing, J.S. Sanchez, R. Loll-Krippleber, N.M. Belliveau, R.A. Rodriguez-Mias, A.J. Bauer, I.J. Watson, L. Bae, J. Villén, G.W. Brown, J.L. Nemhauser"
+  journal: "Journal of Cell Biology"
+  year: 2025
+  DOI: "https://doi.org/10.1083/jcb.202404103"
+  image: "/assets/img/pubs/leydon.png"
+
+
+- title: "Mapping variation in the morphological landscape of human cells with optical pooled CRISPRi screening"
+  authors: "R.L.D. Labitigan, A.L. Sanborn, C.V. Hao, C.K. Chan, N.M. Belliveau, E.M. Brown, M. Mehrotra, J.A. Theriot"
+  journal: "eLife"
+  year: 2024
+  DOI: "https://doi.org/10.7554/eLife.94964.1"
+  image: "/assets/img/pubs/lorenzo.png"
+
+
+- title: "Whole-genome screens reveal regulators of differentiation state and context-dependent migration in human neutrophils"
+  authors: "N.M. Belliveau, M.J. Footer, E. Akdoǧan, A.Pv. Loon, S.R. Collins, J.A. Theriot"
+  journal: "Nature Communications"
+  year: 2023
+  DOI: "https://doi.org/10.1038/s41467-023-41452-x"
+  image: "/assets/img/pubs/migration_Screen2.png"
+
+
+- title: "Fundamental limits on the rate of bacterial growth and their influence on proteomic composition"
+  authors: "N.M Belliveau*, G. Chure*, C.L. Hueschen, H.G. Garcia, J. Kondev, D.S. Fisher, J.A. Theriot, R. Phillips "
+  journal: "Cell Systems"
+  year: "2021 (* equal contributions)"
+  DOI: "https://doi.org/10.1016/j.cels.2021.06.002"
+  image: "/assets/img/pubs/Belliveau_CellSystems.jpg"
+
+- title: "Neutrophil‐like HL‐60 cells expressing only GFP‐tagged β‐actin exhibit nearly normal motility"
+  authors: "R.M. Garner, G. Skariah, A. Hadjitheodorou, N.M. Belliveau, A. Savinov, M.J. Footer, J.A. Theriot"
+  journal: "Cytoskeleton"
+  year: 2020
+  DOI: "https://doi.org/10.1002/cm.21603"
+  image: "/assets/img/pubs/garner.png"
+
+  
+
+ 

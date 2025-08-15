@@ -1,0 +1,44 @@
+---
+layout: default
+title: Home
+---
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 50) {  // adjust threshold as needed
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+});
+</script>
+
+<section id="about" class="hero-split-left about-section">
+  {% include about.html %}
+</section>
+
+<section id="research" class="research-section">
+  {% include research.html %}
+</section>
+
+<!-- Section: Team -->
+<section id="team" class="py-5 team-section full-width-section">
+  {% include team.html %}
+</section>
+
+<!-- Section: Publications -->
+<section id="publications" class="py-5 pub-section full-width-section">
+  {% include publications.html %}
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+  <h2 class="section-heading">Contact Us</h2>
+  {% include contact.html %}
+</section>
+
+

@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include head.html %}
-  <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
-    </div>
-  </body>
-</html>
+<body>
+  {% include header.html %}
+  <main class="col-lg-9 mx-auto p-3 py-md-5">
+    {{ content }}
+  </main>
+    {% include footer.html %}
+
+<script>
+  (function () {
+    const header = document.querySelector('.site-header');
+    const hero   = document.querySelector('.hero');
+    if (!header || !hero) return;
+
+    const obs = new IntersectionObserver(([entry]) => {
+      // When hero top is visible under header, keep header transparent
+      header.classList.toggle('scrolled', !entry.isIntersecting);
+    }, { rootMargin: `-${header.offsetHeight}px 0px 0px 0px`, threshold: 0 });
+
+    obs.observe(hero);
+  })();
+</script>
+
+</body>
+

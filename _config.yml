@@ -1,4 +1,15 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nbellive.github.io" 
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "academic" # the name of your site, e.g. ACME Corp.
-description: "a Jekyll theme for academia"
+title: "Belliveau Lab" 
+description: ""
+sass:
+  load_paths:
+    - _sass
+    - assets/css
+defaults:
+  - scope:
+      path: "assets/css"
+      type: "scss"
+    values:
+      layout: null
+background_image: "/assets/img/cell_migration_mockup_3_edited_blue2.png"
