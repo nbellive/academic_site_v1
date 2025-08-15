@@ -1,5 +1,5 @@
 url: "https://nbellive.github.io" 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/academic_site_v1" # the subpath of your site, e.g. /blog
 title: "Belliveau Lab" 
 description: ""
 sass:
