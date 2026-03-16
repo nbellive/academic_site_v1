@@ -145,6 +145,98 @@ main {
   padding: 3rem 8%;
 }
 
+.team-intro {
+  max-width: 52rem;
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.team-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.team-card__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: #d9e7ef;
+}
+
+.team-card__image--placeholder {
+  padding: 0.75rem;
+  object-fit: contain;
+}
+
+.team-card__content {
+  padding: 1rem 1.1rem 1.15rem;
+}
+
+.team-card__name {
+  margin: 0 0 0.2rem;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.team-card__role {
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.team-card__program {
+  margin: 0 0 0.45rem;
+  line-height: 1.4;
+}
+
+.team-note {
+  max-width: 52rem;
+  padding: 1.5rem;
+  background: #f7ead5;
+  border-radius: 12px;
+}
+
+.team-note h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.team-note p {
+  margin-bottom: 0;
+}
+
+.alumni-section {
+  max-width: 52rem;
+  margin-top: 2rem;
+}
+
+.alumni-section h3 {
+  margin-bottom: 0.75rem;
+}
+
+.alumni-list {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.alumni-list__item {
+  margin: 0;
+}
+
+.alumni-list__name {
+  font-weight: 700;
+}
+
 #publications .theme-block {
   padding: 1.5rem 2rem;  /* top/bottom, left/right */
 }
@@ -304,6 +396,10 @@ $fadeY: 28%;  // height of the bottom fade band
 
   .theme-text {
     padding: 1.25rem;
+  }
+
+  .team-section {
+    padding: 2rem 1.25rem;
   }
 }
 

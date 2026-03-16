@@ -1,14 +1,56 @@
 <h2 class="section-heading">Team</h2>
-  <p>We’re just getting started — and we’re looking for curious, creative, and driven scientists to join us. If you’re excited to explore how cells sense and respond to bioelectric cues, and want to help build a collaborative, supportive lab from the ground up, <a href="#contact">get in touch</a>!</p>
+<p class="team-intro">
+  We are building a collaborative, interdisciplinary lab focused on how cells sense and respond to bioelectric cues.
+  If you are interested in joining the lab, <a href="#contact">get in touch</a>.
+</p>
 
-  <div class="container ps-5">
-    <div class="theme-block">
-      <div class="theme-text">
-        <h2 class="section-heading">Lab Philosophy</h2>
-        <p class="roboto-mono-custom">
-          We believe science thrives when people feel supported, respected, and free to share ideas.
-          Our lab is committed to creating an inclusive, collaborative environment where multiple perspectives help drive innovation. We value curiosity, creativity, and teamwork — and we welcome people from all backgrounds, identities, and experiences.
-        </p>
+<div class="team-grid">
+  {% for person in site.data.settings.people %}
+    <article class="team-card">
+      {% if person.image %}
+        <img
+          class="team-card__image"
+          src="{{ site.github.url }}/{{ person.image }}"
+          alt="Portrait of {{ person.name }}">
+      {% else %}
+        <img
+          class="team-card__image team-card__image--placeholder"
+          src="{{ site.github.url }}/assets/img/team/default-silhouette.svg"
+          alt="Default profile silhouette for {{ person.name }}">
+      {% endif %}
+
+      <div class="team-card__content">
+        <h3 class="team-card__name">{{ person.name }}</h3>
+        <p class="team-card__role">{{ person.role }}</p>
+
+        {% if person.program %}
+          <p class="team-card__program">{{ person.program }}</p>
+        {% endif %}
       </div>
+    </article>
+  {% endfor %}
+</div>
+
+<div class="team-note">
+  <h3>Lab Philosophy</h3>
+  <p>
+    We believe science works best when people feel supported, respected, and free to share ideas.
+    We are committed to building an inclusive, collaborative environment where curiosity, rigor, and generosity
+    all matter.
+  </p>
+</div>
+
+{% assign alumni_entries = site.data.settings.alumni | where_exp: "person", "person.name" %}
+{% if alumni_entries and alumni_entries.size > 0 %}
+  <div class="alumni-section">
+    <h3>Alumni</h3>
+    <div class="alumni-list">
+      {% for person in alumni_entries %}
+        <p class="alumni-list__item">
+          <span class="alumni-list__name">{{ person.name }}</span>
+          {% if person.detail %}<span class="alumni-list__detail">, {{ person.detail }}</span>{% endif %}
+        </p>
+      {% endfor %}
     </div>
   </div>
+{% endif %}

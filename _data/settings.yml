@@ -5,7 +5,29 @@ menu:
 - {name: 'Contact', url: '#contact'}
 
 people:
-# - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- name: 'Dr. Nathan M. Belliveau'
+  role: 'Principal Investigator'
+  email: 'nathan.belliveau@colorado.edu'
+  image:
+- name: 'Natalie Meinerz'
+  role: 'Professional Research Assistant'
+  image:
+- name: 'Tatianna Barnes'
+  role: 'Graduate Student, Chemical Engineering'
+  image:
+- name: 'Maya Oza'
+  role: 'Undergraduate Researcher, Biochemistry'
+  image:
+- name: 'Benjamin Rybnicek'
+  role: 'Undergraduate Researcher, Biochemistry'
+  image:
+# Add more team members here. For each new entry:
+# - set image to a square headshot path like assets/img/team/jane-doe.jpg
+# - leave image blank to show the built-in placeholder card
+
+alumni:
+# - name: 'Jane Doe'
+#   detail: 'Former Undergraduate Researcher'
 
 courses:
 # - {name: 'Vector Calculus', url: 'vector-calculus'}

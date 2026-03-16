@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Default team member silhouette</title>
+  <desc id="desc">Neutral placeholder portrait for team profiles without a photo.</desc>
+  <rect width="600" height="600" fill="#d9e7ef"/>
+  <circle cx="300" cy="225" r="105" fill="#89a7bb"/>
+  <path d="M300 362c-108 0-195 75-195 168v70h390v-70c0-93-87-168-195-168Z" fill="#89a7bb"/>
+</svg>
