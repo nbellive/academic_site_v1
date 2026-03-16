@@ -5,7 +5,7 @@ menu:
 - {name: 'Contact', url: '#contact'}
 
 people:
-- name: 'Dr. Nathan M. Belliveau'
+- name: 'Nathan M. Belliveau'
   role: 'Principal Investigator'
   email: 'nathan.belliveau@colorado.edu'
   image:
