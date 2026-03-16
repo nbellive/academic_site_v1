@@ -1,19 +1,21 @@
 <h2 class="section-heading">Select Publications</h2>
-<div class="theme-block">{
-  <div class="row mb-4">
+<div class="theme-block publications-block">
+  <div class="publications-list">
     {% for pub in site.data.publications %}
-      <div class="col-12 mb-3 d-flex align-items-start">
-        <img src="{{ pub.image | relative_url }}" alt="Publication image" class="me-3" style="width:200px; height:auto;">
+      <article class="publication-item">
+        <img src="{{ pub.image | relative_url }}" alt="Publication image" class="publication-item__image">
 
-        <div>
+        <div class="publication-item__content">
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors }}<br>
           <span><em>{{ pub.journal }}</em>, {{ pub.year }}</span><br>
-          <a href="{{ pub.DOI }}" target="_blank">{{ pub.DOI }}</a>
+          <a href="{{ pub.DOI }}" target="_blank" rel="noopener noreferrer">{{ pub.DOI }}</a>
         </div>
-      </div>
+      </article>
     {% endfor %}
-
-    <p><h5>Full publication and patent list on <a href="https://scholar.google.com/citations?hl=en&user=v4NF1tEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></h5></p>
   </div>
+
+  <p class="publications-footer">
+    <strong>Full publication and patent list on <a href="https://scholar.google.com/citations?hl=en&user=v4NF1tEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></strong>
+  </p>
 </div>

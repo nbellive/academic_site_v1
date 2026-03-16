@@ -242,6 +242,38 @@ main {
   padding: 1.5rem 2rem;  /* top/bottom, left/right */
 }
 
+.publications-block {
+  display: block;
+}
+
+.publications-list {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.publication-item__image {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.publication-item__content {
+  min-width: 0;
+  line-height: 1.45;
+}
+
+.publications-footer {
+  margin: 1.75rem 0 0;
+}
+
 /* ===========================
    Map embed
    =========================== */
@@ -401,6 +433,15 @@ $fadeY: 28%;  // height of the bottom fade band
 
   .team-section {
     padding: 2rem 1.25rem;
+  }
+
+  .publication-item {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .publication-item__image {
+    width: min(200px, 100%);
   }
 }
 
