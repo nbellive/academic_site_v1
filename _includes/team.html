@@ -31,15 +31,6 @@
   {% endfor %}
 </div>
 
-<div class="team-note">
-  <h3>Lab Philosophy</h3>
-  <p>
-    We believe science works best when people feel supported, respected, and free to share ideas.
-    We are committed to building an inclusive, collaborative environment where curiosity, rigor, and generosity
-    all matter.
-  </p>
-</div>
-
 {% assign alumni_entries = site.data.settings.alumni | where_exp: "person", "person.name" %}
 {% if alumni_entries and alumni_entries.size > 0 %}
   <div class="alumni-section">
@@ -54,3 +45,12 @@
     </div>
   </div>
 {% endif %}
+
+<div class="team-note">
+  <h3>Lab Philosophy</h3>
+  <p>
+    We believe science works best when people feel supported, respected, and free to share ideas.
+    We are committed to building an inclusive, collaborative environment where curiosity, rigor, and generosity
+    all matter.
+  </p>
+</div>
