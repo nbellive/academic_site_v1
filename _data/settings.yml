@@ -26,8 +26,10 @@ people:
 # - leave image blank to show the built-in placeholder card
 
 alumni:
-# - name: 'Jane Doe'
-#   detail: 'Former Undergraduate Researcher'
+- name: 'Annie Schafer'
+  detail: 'Rotation Student, Biochemistry'
+- name: 'Lucinda Shaffer'
+  detail: 'Rotation Student, IQ Biology'
 
 courses:
 # - {name: 'Vector Calculus', url: 'vector-calculus'}
