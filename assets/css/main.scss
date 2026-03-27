@@ -135,6 +135,10 @@ main {
   padding: 3rem 8%;              /* top/bottom 3rem, sides 8% */
 }
 
+#publications {
+  padding: 3rem 4%;
+}
+
 .team-section {
   width: 100vw;
   position: relative;
@@ -240,6 +244,10 @@ main {
 
 #publications .theme-block {
   padding: 1.5rem 2rem;  /* top/bottom, left/right */
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .publications-block {
@@ -271,7 +279,7 @@ main {
 }
 
 .publications-footer {
-  margin: 1.75rem 0 0;
+  margin: 0 0 1.25rem;
   text-align: center;
 }
 
