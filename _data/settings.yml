@@ -15,8 +15,11 @@ people:
 - name: 'Tatianna Barnes'
   role: 'Graduate Student, Chemical Engineering'
   image:
-- name: 'Maya Oza'
-  role: 'Undergraduate Researcher, Biochemistry'
+- name: 'Annie Schafer'
+  role: 'Graduate Student, Biochemistry'
+  image:
+- name: 'Ange-Emanuel Morignot'
+  role: 'Graduate Student, MCDB'
   image:
 - name: 'Benjamin Rybnicek'
   role: 'Undergraduate Researcher, Biochemistry'
@@ -26,10 +29,14 @@ people:
 # - leave image blank to show the built-in placeholder card
 
 alumni:
-- name: 'Annie Schafer'
-  detail: 'Rotation Student, Biochemistry'
+- name: 'Maya Oza'
+  detail: 'Undergraduate Researcher, Biochemistry'
 - name: 'Lucinda Shaffer'
   detail: 'Rotation Student, IQ Biology'
+- name: 'Vanessa Nguyen'
+  detail: 'Rotation Student, Biochemistry'
+- name: 'Shreya Sharma'
+  detail: 'Rotation Student, Biochemistry'
 
 courses:
 # - {name: 'Vector Calculus', url: 'vector-calculus'}
