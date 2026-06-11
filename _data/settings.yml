@@ -8,7 +8,8 @@ people:
 - name: 'Nathan M. Belliveau'
   role: 'Principal Investigator'
   email: 'nathan.belliveau@colorado.edu'
-  image:
+  image: 'assets/img/team/nathan-belliveau.png'
+  image_position: 'center 20%'
 - name: 'Natalie Meinerz'
   role: 'Senior Professional Research Assistant'
   image:
