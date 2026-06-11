@@ -23,6 +23,14 @@
     if (typeof ResizeObserver !== 'undefined') {
       const resizeObserver = new ResizeObserver(updateHeaderHeight);
       resizeObserver.observe(header);
+      const container = header.querySelector('.container');
+      if (container) resizeObserver.observe(container);
+    }
+
+    const logo = header.querySelector('.header-logo img');
+    if (logo) {
+      if (logo.complete) updateHeaderHeight();
+      else logo.addEventListener('load', updateHeaderHeight);
     }
 
     const hero = document.querySelector('.hero');

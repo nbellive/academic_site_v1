@@ -36,15 +36,21 @@ a { color: $linkColor; }
   top: 0; left: 0; width: 100%;
   min-height: 80px;
   height: auto;
+  box-sizing: border-box;
   background: transparent;
   border-bottom: none;
   transition: background-color .25s ease, box-shadow .25s ease;
   z-index: 1000;
 
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-content: center;
   padding: 0 1.5rem;
+}
+
+.site-header .container {
+  width: 100%;
+  max-width: 100%;
 }
 
 .site-header.scrolled {
@@ -63,6 +69,13 @@ a { color: $linkColor; }
 .header-divider {
   border-left: 1px solid black;
   height: 40px;
+}
+
+.header-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
 }
 
 .site-header img {
@@ -470,18 +483,29 @@ $fadeY: 28%;  // height of the bottom fade band
   $fadeY: 20%;
 
   .site-header {
-    align-items: stretch;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1rem 1rem;
   }
 
   .site-header .container {
     gap: 0.35rem;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .site-header nav {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .site-header .header-logo {
+    width: 100%;
+    margin-top: 0.15rem;
+    padding-bottom: 0.1rem;
+  }
+
+  .about-section.hero-split-left {
+    margin-top: 0;
   }
 
   .hero-split-left {

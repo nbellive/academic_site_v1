@@ -18,6 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
   if (typeof ResizeObserver !== 'undefined') {
     const resizeObserver = new ResizeObserver(updateHeaderHeight);
     resizeObserver.observe(header);
+    const container = header.querySelector('.container');
+    if (container) resizeObserver.observe(container);
+  }
+
+  const logo = header.querySelector('.header-logo img');
+  if (logo) {
+    if (logo.complete) updateHeaderHeight();
+    else logo.addEventListener('load', updateHeaderHeight);
   }
 
   window.addEventListener('scroll', function () {
@@ -26,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
       header.classList.remove('scrolled');
     }
+    updateHeaderHeight();
   });
 });
 </script>
