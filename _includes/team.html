@@ -11,7 +11,8 @@
         <img
           class="team-card__image"
           src="{{ site.github.url }}/{{ person.image }}"
-          alt="Portrait of {{ person.name }}">
+          alt="Portrait of {{ person.name }}"
+          {% if person.image_position %}style="object-position: {{ person.image_position }};"{% endif %}>
       {% else %}
         <img
           class="team-card__image team-card__image--placeholder"
