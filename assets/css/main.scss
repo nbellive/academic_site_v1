@@ -14,13 +14,16 @@ $accentBlue: #3A7CA5;
    Global
    =========================== */
 html { scroll-behavior: smooth; }
-:root { scroll-padding-top: 80px; }
+:root {
+  --header-height: 80px;
+  scroll-padding-top: var(--header-height);
+}
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-  padding-top: 80px; /* space for fixed header */
+  padding-top: var(--header-height);
 }
 
 a { color: $linkColor; }
@@ -31,7 +34,8 @@ a { color: $linkColor; }
 .site-header {
   position: fixed;
   top: 0; left: 0; width: 100%;
-  height: 80px;
+  min-height: 80px;
+  height: auto;
   background: transparent;
   border-bottom: none;
   transition: background-color .25s ease, box-shadow .25s ease;
@@ -465,6 +469,20 @@ $fadeY: 28%;  // height of the bottom fade band
   $fadeX: 20%;
   $fadeY: 20%;
 
+  .site-header {
+    align-items: stretch;
+    padding: 0.75rem 1rem;
+  }
+
+  .site-header .container {
+    gap: 0.35rem;
+    text-align: center;
+  }
+
+  .site-header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .hero-split-left {
     flex-direction: column;  /* stack */

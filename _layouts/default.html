@@ -11,11 +11,24 @@
 <script>
   (function () {
     const header = document.querySelector('.site-header');
-    const hero   = document.querySelector('.hero');
-    if (!header || !hero) return;
+    if (!header) return;
+
+    function updateHeaderHeight() {
+      document.documentElement.style.setProperty('--header-height', header.offsetHeight + 'px');
+    }
+
+    updateHeaderHeight();
+    window.addEventListener('resize', updateHeaderHeight);
+
+    if (typeof ResizeObserver !== 'undefined') {
+      const resizeObserver = new ResizeObserver(updateHeaderHeight);
+      resizeObserver.observe(header);
+    }
+
+    const hero = document.querySelector('.hero');
+    if (!hero) return;
 
     const obs = new IntersectionObserver(([entry]) => {
-      // When hero top is visible under header, keep header transparent
       header.classList.toggle('scrolled', !entry.isIntersecting);
     }, { rootMargin: `-${header.offsetHeight}px 0px 0px 0px`, threshold: 0 });
 
