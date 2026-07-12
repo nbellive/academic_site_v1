@@ -13,8 +13,7 @@ people:
 - name: 'Natalie Meinerz'
   role: 'Senior Professional Research Assistant'
   image: 'assets/img/team/natalie-meinerz.png'
-  image_position: 'center 42%'
-  image_scale: 0.9
+  image_position: 'center top'
 - name: 'Tatianna Barnes'
   role: 'Graduate Student, Chemical Engineering'
   image: 'assets/img/team/tatianna-barnes.png'
