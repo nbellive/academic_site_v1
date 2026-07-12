@@ -8,11 +8,15 @@
   {% for person in site.data.settings.people %}
     <article class="team-card">
       {% if person.image %}
+        {% capture image_style %}
+          {%- if person.image_position -%}object-position: {{ person.image_position }};{%- endif -%}
+          {%- if person.image_scale -%} transform: scale({{ person.image_scale }}); transform-origin: {{ person.image_position | default: 'center center' }};{%- endif -%}
+        {% endcapture %}
         <img
           class="team-card__image"
           src="{{ site.github.url }}/{{ person.image }}"
           alt="Portrait of {{ person.name }}"
-          {% if person.image_position %}style="object-position: {{ person.image_position }};"{% endif %}>
+          {% if image_style != '' %}style="{{ image_style | strip }}"{% endif %}>
       {% else %}
         <img
           class="team-card__image team-card__image--placeholder"

@@ -13,7 +13,8 @@ people:
 - name: 'Natalie Meinerz'
   role: 'Senior Professional Research Assistant'
   image: 'assets/img/team/natalie-meinerz.png'
-  image_position: 'center 25%'
+  image_position: 'center 42%'
+  image_scale: 0.9
 - name: 'Tatianna Barnes'
   role: 'Graduate Student, Chemical Engineering'
   image: 'assets/img/team/tatianna-barnes.png'
@@ -31,6 +32,7 @@ people:
 # Add more team members here. For each new entry:
 # - set image to a square headshot path like assets/img/team/jane-doe.jpg
 # - optionally set image_position (e.g. 'center top') to bias square crops
+# - optionally set image_scale (e.g. 0.9) to zoom out slightly within the card
 # - leave image blank to show the built-in placeholder card
 
 alumni:
