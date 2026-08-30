@@ -59,3 +59,32 @@
     all matter.
   </p>
 </div>
+
+{% assign outing_entries = site.data.settings.lab_outings | where_exp: "outing", "outing.image" %}
+{% if outing_entries and outing_entries.size > 0 %}
+  <div class="team-gallery-section">
+    <div class="team-gallery-header">
+      <h3>Lab Outings</h3>
+      <p>Moments outside the lab that help make the group feel like a group.</p>
+    </div>
+
+    <div class="team-gallery-grid">
+      {% for outing in outing_entries %}
+        {% capture outing_style %}
+          {%- if outing.image_position -%}object-position: {{ outing.image_position }};{%- endif -%}
+        {% endcapture %}
+        <figure class="team-gallery-card">
+          <img
+            class="team-gallery-card__image"
+            src="{{ site.github.url }}/{{ outing.image }}"
+            alt="{{ outing.title }}"
+            {% if outing_style != '' %}style="{{ outing_style | strip }}"{% endif %}>
+          <figcaption class="team-gallery-card__caption">
+            <strong>{{ outing.title }}</strong>
+            {% if outing.detail %}<span>{{ outing.detail }}</span>{% endif %}
+          </figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

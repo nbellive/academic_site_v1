@@ -44,6 +44,12 @@ alumni:
 - name: 'Shreya Sharma'
   detail: 'Rotation Student, Biochemistry'
 
+lab_outings:
+- title: 'Casa Bonita'
+  detail: 'Lab outing'
+  image: 'assets/img/outings/casa-bonita-2026.jpeg'
+  image_position: 'center center'
+
 courses:
 # - {name: 'Vector Calculus', url: 'vector-calculus'}
 
