@@ -46,8 +46,10 @@ alumni:
 
 lab_outings:
 - title: 'Casa Bonita'
-  detail: 'Lab outing'
   image: 'assets/img/outings/casa-bonita-2026.jpeg'
+  image_position: 'center center'
+- title: '2026 summer cookie hour'
+  image: 'assets/img/outings/summer-cookie-hour-2026.png'
   image_position: 'center center'
 
 courses:

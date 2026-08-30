@@ -81,7 +81,6 @@
             {% if outing_style != '' %}style="{{ outing_style | strip }}"{% endif %}>
           <figcaption class="team-gallery-card__caption">
             <strong>{{ outing.title }}</strong>
-            {% if outing.detail %}<span>{{ outing.detail }}</span>{% endif %}
           </figcaption>
         </figure>
       {% endfor %}
