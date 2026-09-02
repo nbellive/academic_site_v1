@@ -50,7 +50,7 @@ lab_outings:
   image: 'assets/img/outings/casa-bonita-2026.jpeg'
   image_position: 'center center'
 - title: '2026 summer cookie hour'
-  image: 'assets/img/outings/summer-cookie-hour-2026.png'
+  image: 'assets/img/outings/summer-cookie-hour-2026.jpg'
   image_position: 'center center'
 - title: 'Lab Hike - Quandary Peak'
   image: 'assets/img/outings/quandary-peak-2026.jpg'
