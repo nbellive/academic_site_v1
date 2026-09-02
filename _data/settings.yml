@@ -28,6 +28,7 @@ people:
 - name: 'Benjamin Rybnicek'
   role: 'Undergraduate Researcher, Biochemistry'
   image: 'assets/img/team/benjamin-rybnicek.png'
+  image_position: 'center top'
 # Add more team members here. For each new entry:
 # - set image to a square headshot path like assets/img/team/jane-doe.jpg
 # - optionally set image_position (e.g. 'center top') to bias square crops
@@ -50,6 +51,12 @@ lab_outings:
   image_position: 'center center'
 - title: '2026 summer cookie hour'
   image: 'assets/img/outings/summer-cookie-hour-2026.png'
+  image_position: 'center center'
+- title: 'Lab Hike - Quandary Peak'
+  image: 'assets/img/outings/quandary-peak-2026.jpg'
+  image_position: 'center center'
+- title: 'Lab Hike - Sawtooth Traverse'
+  image: 'assets/img/outings/sawtooth-traverse-2026.jpg'
   image_position: 'center center'
 
 courses:
