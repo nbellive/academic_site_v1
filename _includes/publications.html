@@ -7,8 +7,6 @@
   <div class="publications-list">
     {% for pub in site.data.publications %}
       <article class="publication-item">
-        <img src="{{ pub.image | relative_url }}" alt="Publication image" class="publication-item__image">
-
         <div class="publication-item__content">
           <strong>{{ pub.title }}</strong><br>
           {{ pub.authors }}<br>
