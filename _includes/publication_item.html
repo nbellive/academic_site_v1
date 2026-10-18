@@ -1,6 +1,6 @@
 <article class="publication-item">
   <div class="publication-item__content">
-    <strong>{{ include.pub.title }}</strong><br>
+    <strong>{{ include.pub.title | strip }}.</strong>
     {% assign authors = include.pub.authors | strip %}
     {{ authors }}{% assign last_char = authors | slice: -1 %}{% unless last_char == "." %}.{% endunless %} <em>{{ include.pub.journal }}</em>, {{ include.pub.year }}.
     {% if include.pub.DOI %}
