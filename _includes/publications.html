@@ -9,8 +9,7 @@
       <article class="publication-item">
         <div class="publication-item__content">
           <strong>{{ pub.title }}</strong><br>
-          {{ pub.authors }}<br>
-          <span><em>{{ pub.journal }}</em>, {{ pub.year }}</span><br>
+          {{ pub.authors | strip }}. <em>{{ pub.journal }}</em>, {{ pub.year }}.
           <a href="{{ pub.DOI }}" target="_blank" rel="noopener noreferrer">{{ pub.DOI }}</a>
         </div>
       </article>
