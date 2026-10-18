@@ -4,17 +4,17 @@
   year: 2026
   DOI: "https://doi.org/10.64898/2026.08.03.742522"
 
-- title: "Protein diffusion controls how single cells respond to electric fields"
-  authors: "I. Nwogbaga, N.M. Belliveau, A.R. Singh, D. Sun, N. Mulenga, J.A. Theriot, B.A. Camley"
-  journal: "bioRxiv"
-  year: 2025
-  DOI: "https://doi.org/10.1101/2025.04.09.647627"
-
 - title: "Galvanin (TMEM154) Is an Electric-Field Sensor for Directed Cell Migration"
   authors: "N.M. Belliveau, M.J. Footer, A. Platenkamp, et al."
   journal: "Cell"
   year: "189, no. 13 (2026)"
   DOI: "https://doi.org/10.1016/j.cell.2026.04.026"
+
+- title: "Protein diffusion controls how single cells respond to electric fields"
+  authors: "I. Nwogbaga, N.M. Belliveau, A.R. Singh, D. Sun, N. Mulenga, J.A. Theriot, B.A. Camley"
+  journal: "bioRxiv"
+  year: 2025
+  DOI: "https://doi.org/10.1101/2025.04.09.647627"
 
 - title: " A function of TPL/TBL1-type corepressors is to nucleate the assembly of the preinitiation complex"
   authors: "A.R. Leydon, B. Downing, J.S. Sanchez, R. Loll-Krippleber, N.M. Belliveau, R.A. Rodriguez-Mias, A.J. Bauer, I.J. Watson, L. Bae, J. Villén, G.W. Brown, J.L. Nemhauser"
@@ -22,20 +22,17 @@
   year: 2025
   DOI: "https://doi.org/10.1083/jcb.202404103"
 
-
 - title: "Mapping variation in the morphological landscape of human cells with optical pooled CRISPRi screening"
   authors: "R.L.D. Labitigan, A.L. Sanborn, C.V. Hao, C.K. Chan, N.M. Belliveau, E.M. Brown, M. Mehrotra, J.A. Theriot"
   journal: "eLife"
   year: 2024
   DOI: "https://doi.org/10.7554/eLife.94964.1"
 
-
 - title: "Whole-genome screens reveal regulators of differentiation state and context-dependent migration in human neutrophils"
   authors: "N.M. Belliveau, M.J. Footer, E. Akdoǧan, A.Pv. Loon, S.R. Collins, J.A. Theriot"
   journal: "Nature Communications"
   year: 2023
   DOI: "https://doi.org/10.1038/s41467-023-41452-x"
-
 
 - title: "Fundamental limits on the rate of bacterial growth and their influence on proteomic composition"
   authors: "N.M Belliveau*, G. Chure*, C.L. Hueschen, H.G. Garcia, J. Kondev, D.S. Fisher, J.A. Theriot, R. Phillips "
@@ -48,7 +45,3 @@
   journal: "Cytoskeleton"
   year: 2020
   DOI: "https://doi.org/10.1002/cm.21603"
-
-  
-
- 
