@@ -3,6 +3,8 @@
     <strong>{{ include.pub.title }}</strong><br>
     {% assign authors = include.pub.authors | strip %}
     {{ authors }}{% assign last_char = authors | slice: -1 %}{% unless last_char == "." %}.{% endunless %} <em>{{ include.pub.journal }}</em>, {{ include.pub.year }}.
+    {% if include.pub.DOI %}
     <a href="{{ include.pub.DOI }}" target="_blank" rel="noopener noreferrer">{{ include.pub.DOI }}</a>
+    {% endif %}
   </div>
 </article>
