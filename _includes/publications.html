@@ -6,13 +6,14 @@
 
   <div class="publications-list">
     {% for pub in site.data.publications %}
-      <article class="publication-item">
-        <div class="publication-item__content">
-          <strong>{{ pub.title }}</strong><br>
-          {{ pub.authors | strip }}. <em>{{ pub.journal }}</em>, {{ pub.year }}.
-          <a href="{{ pub.DOI }}" target="_blank" rel="noopener noreferrer">{{ pub.DOI }}</a>
-        </div>
-      </article>
+      {% include publication_item.html pub=pub %}
+    {% endfor %}
+  </div>
+
+  <h3 class="publications-subheading">Earlier work</h3>
+  <div class="publications-list">
+    {% for pub in site.data.publications_earlier %}
+      {% include publication_item.html pub=pub %}
     {% endfor %}
   </div>
 </div>

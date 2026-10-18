@@ -1,0 +1,7 @@
+<article class="publication-item">
+  <div class="publication-item__content">
+    <strong>{{ include.pub.title }}</strong><br>
+    {{ include.pub.authors | strip }}. <em>{{ include.pub.journal }}</em>, {{ include.pub.year }}.
+    <a href="{{ include.pub.DOI }}" target="_blank" rel="noopener noreferrer">{{ include.pub.DOI }}</a>
+  </div>
+</article>
