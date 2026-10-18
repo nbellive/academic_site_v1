@@ -4,6 +4,18 @@
   year: 2020
   DOI: "https://doi.org/10.7554/eLife.55308"
 
+- title: "Sequence-dependent dynamics of synthetic and endogenous RSSs in V(D)J recombination"
+  authors: "S. Hirokawa, G. Chure, N.M. Belliveau, G.A. Lovely, M. Anaya, D.G. Schatz, D. Baltimore, R. Phillips"
+  journal: "Nucleic Acids Research"
+  year: 2020
+  DOI: "https://doi.org/10.1093/nar/gkaa418"
+
+- title: "Theoretical investigation of a genetic switch for metabolic adaptation"
+  authors: "K.S. Laxhuber, M.J. Morrison, G. Chure, N.M. Belliveau, C. Strandkvist, K.L. Naughton, R. Phillips"
+  journal: "PLoS ONE"
+  year: 2020
+  DOI: "https://doi.org/10.1371/journal.pone.0226453"
+
 - title: "Predictive shifts in free energy couple mutations to their phenotypic consequences"
   authors: "G. Chure, M. Razo-Mejia, N.M. Belliveau, T. Einav, Z.A. Kaczmarek, S.L. Barnes, M. Lewis, R. Phillips"
   journal: "PNAS"
@@ -33,6 +45,18 @@
   journal: "Cell Systems"
   year: 2018
   DOI: "https://doi.org/10.1016/j.cels.2018.02.004"
+
+- title: "Lipid nanoparticle siRNA systems for silencing the androgen receptor in human prostate cancer in vivo"
+  authors: "J.B. Lee, K. Zhang, Y.Y. Tam, Y.K. Tam, N.M. Belliveau, V.Y. Sung, P.J. Lin, E. LeBlanc, M.A. Ciufolini, P.S. Rennie, P.R. Cullis"
+  journal: "International Journal of Cancer"
+  year: 2012
+  DOI: "https://doi.org/10.1002/ijc.27361"
+
+- title: "Lipid nanoparticles containing siRNA synthesized by microfluidic mixing exhibit an electron-dense nanostructured core"
+  authors: "A.K. Leung, I.M. Hafez, S. Baoukina, N.M. Belliveau, I.V. Zhigaltsev, E. Afshinmanesh, D.P. Tieleman, C.L. Hansen, M.J. Hope, P.R. Cullis"
+  journal: "Journal of Physical Chemistry C"
+  year: 2012
+  DOI: "https://doi.org/10.1021/jp303267y"
 
 - title: "Microfluidic synthesis of highly potent limit-size lipid nanoparticles for in vivo delivery of siRNA"
   authors: "N.M. Belliveau, J. Huft, P.J. Lin, S. Chen, A.K. Leung, T.J. Leaver, A.W. Wild, J.B. Lee, R.J. Taylor, Y.K. Tam, C.L. Hansen, P.R. Cullis"
