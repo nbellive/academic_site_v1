@@ -46,6 +46,15 @@ alumni:
   detail: 'Rotation Student, Biochemistry'
 
 lab_outings:
+- title: 'Froyo Outing'
+  image: 'assets/img/outings/froyo-ripple-2026.jpg'
+  image_position: 'center center'
+- title: 'Halloween Happy Hour'
+  image: 'assets/img/outings/halloween-witch-hats-2026.jpg'
+  image_position: 'center center'
+- title: '2026 Halloween Cookie Hour'
+  image: 'assets/img/outings/halloween-treats-2026.jpg'
+  image_position: 'center center'
 - title: 'Casa Bonita'
   image: 'assets/img/outings/casa-bonita-2026.jpeg'
   image_position: 'center center'
@@ -54,9 +63,6 @@ lab_outings:
   image_position: 'center center'
 - title: 'Lab Hike - Quandary Peak'
   image: 'assets/img/outings/quandary-peak-2026.jpg'
-  image_position: 'center center'
-- title: 'Lab Hike - Sawtooth Traverse'
-  image: 'assets/img/outings/sawtooth-traverse-2026.jpg'
   image_position: 'center center'
 
 courses:
